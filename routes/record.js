@@ -12,7 +12,7 @@ const dbo = require('../db/conn');
 
 recordRoutes.route('/').get(async function (_req, res) {
   res.status(200).send('Bienvenido al Backend!!'
-  <br><h2>RB20021, Luis Israel Ramos Barahona</h2>
+  +'<br><h2>RB20021, Luis Israel Ramos Barahona</h2>'
   + "<br> Hostname = " + os.hostname()
   + "<br> OS = " + os.platform()
   + "<br> version = " + os.version()
